@@ -1,0 +1,13 @@
+{
+    "name": "edge-angular-electron",
+    "version": "0.0.1",
+    "license": "MIT",
+    "main": "main.js",
+    "dependencies": {
+        "@angular/cli": "^1.5.0",
+        "electron": "^1.7.9",
+        "node-ipc": "^9.1.1",
+        "path": "^0.12.7",
+        "url": "^0.11.0"
+    }
+}
