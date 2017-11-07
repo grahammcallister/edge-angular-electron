@@ -32,3 +32,7 @@ Build the Electron and Angular apps using npm and ng build --base-href .
 Use Visual Studio to build the WPF project. Note that the node_modules folder is copied to the output folder of the WPF app.
 
 Run the WPF app, it will launch Electron
+
+## Note
+
+There is a current open issue with Electron typescript interfaces. Copy the included patched version of electron.d.ts into the node_modules/electron folder in angular-app after trying to build.
